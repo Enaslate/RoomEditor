@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Root" style="flex-direction: row; height: 100%;">
+        <ui:VisualElement name="Sidebar" style="width: 280px; flex-shrink: 0; flex-direction: column;">
+            <ui:VisualElement name="Header" style="flex-direction: row; justify-content: space-around;">
+                <ui:Button name="GeometryTab" text="&#1043;&#1077;&#1086;&#1084;&#1077;&#1090;&#1088;&#1080;&#1103;"/>
+                <ui:Button name="LayoutTab" text="&#1055;&#1083;&#1072;&#1085;&#1080;&#1088;&#1086;&#1074;&#1082;&#1072;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="Body" style="flex-direction: column; padding: 8px;">
+                <ui:VisualElement name="GeometryPanel" style="display: none;">
+                    <ui:Label text="&#1056;&#1072;&#1079;&#1084;&#1077;&#1088;&#1099; &#1082;&#1086;&#1084;&#1085;&#1072;&#1090;&#1099;"/>
+                    <ui:VisualElement>
+                        <ui:Label text="&#1064;&#1080;&#1088;&#1080;&#1085;&#1072;"/>
+                        <ui:FloatField name="RoomWidth" value="4"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement>
+                        <ui:Label text="&#1042;&#1099;&#1089;&#1086;&#1090;&#1072;"/>
+                        <ui:FloatField name="RoomHeight" value="2"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement>
+                        <ui:Label text="&#1044;&#1083;&#1080;&#1085;&#1072;"/>
+                        <ui:FloatField name="RoomLength" value="5"/>
+                    </ui:VisualElement>
+                    <ui:Button name="SaveRoom" text="&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="LayoutPanel" style="display: none;">
+                    <ui:Label text="&#1054;&#1073;&#1098;&#1077;&#1082;&#1090;&#1099;"/>
+                    <ui:Button name="AddDoor" text="&#1044;&#1074;&#1077;&#1088;&#1100;"/>
+                    <ui:Button name="AddWindow" text="&#1054;&#1082;&#1085;&#1086;"/>
+                    <ui:VisualElement name="ObjectsList" style="margin-top: 8px;"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Workspace" style="flex-grow: 1;"/>
+    </ui:VisualElement>
+</ui:UXML>

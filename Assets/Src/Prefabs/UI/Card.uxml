@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="border-bottom-width: 1px; padding: 4px;">
+        <ui:Label name="Title" text="&#1044;&#1074;&#1077;&#1088;&#1100;" parse-escape-sequences="false" enable-rich-text="true"/>
+        <ui:VisualElement>
+            <ui:Label text="&#1055;&#1086;&#1079;&#1080;&#1094;&#1080;&#1103;"/>
+            <ui:VisualElement name="" style="flex-grow: 1; flex-direction: row; justify-content: center;">
+                <ui:FloatField name="PosX" style="flex-grow: 1;"/>
+                <ui:FloatField name="PosY" style="flex-grow: 1;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement>
+            <ui:Label text="&#1064;&#1080;&#1088;&#1080;&#1085;&#1072;"/>
+            <ui:FloatField name="Width"/>
+        </ui:VisualElement>
+        <ui:VisualElement>
+            <ui:Label text="&#1042;&#1099;&#1089;&#1086;&#1090;&#1072;"/>
+            <ui:FloatField name="Height"/>
+        </ui:VisualElement>
+        <ui:Button name="Save" text="&#1057;&#1086;&#1093;&#1088;&#1072;&#1085;&#1080;&#1090;&#1100;"/>
+        <ui:Button name="Delete" text="&#1059;&#1076;&#1072;&#1083;&#1080;&#1090;&#1100;"/>
+    </ui:VisualElement>
+</ui:UXML>
