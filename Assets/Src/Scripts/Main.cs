@@ -89,5 +89,9 @@ public class Main : MonoBehaviour
         _uiController.AddFurnitureRequested -= OnAddFurnitureRequested;
         _uiController.SaveFurnitureRequested -= OnSaveFurnitureRequested;
         _uiController.DeleteFurnitureRequested -= OnDeleteFurnitureRequested;
+
+        _sceneInputController.SelectReceived -= OnSelectReceived;
+        _sceneInputController.DragReceived -= OnDragReceived;
+        _sceneInputController.DragCancelReceived -= OnDragCancelReceived;
     }
 }
